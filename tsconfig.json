@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,8 +14,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react"
+
+    // definitely typed 라이브러리에 포함되지 않은 라이브러리를 사용할 땐 다음과 같이 사용한다
+    // "noImplicitAny": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
